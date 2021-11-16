@@ -4,7 +4,7 @@
     <table border="1">
       <?php
         $row = 5;
-        for($i=0;$i<101;$i++){
+        for($i=0;$i<100;$i++){
           echo "<tr>";
           echo "<td>คอลัมน์ที่ 1</td>";
           echo "<td>คอลัมน์ที่ 2</td>";
