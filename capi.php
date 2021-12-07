@@ -4,7 +4,7 @@
   $data = json_decode($json);
   echo "วันที่ : ".$data[0]->txn_date."<br>";
   echo "ผู้ป่วยใหม่ : ".$data[0]->new_case."<br>";
-  echo "ผู้ป่วยรวม : ".$data[0]->."<br>";
+  echo "ผู้ป่วยรวม : ".$data[0]->total_case."<br>";
   echo "ผู้ป่วยใหม่ในประเทศ : ".$data[0]->new_case_excludeabroad."<br>";
   echo "ผู้ป่วยรวมในประเทศ : ".$data[0]->total_case_excludeabroad."<br>";
   echo "ผู้เสียชีวิตใหม่ : ".$data[0]->new_death."<br>";
