@@ -35,19 +35,5 @@ foreach($data as $key=>$val){
   echo "</td>";
   echo "</tr>";
 }
-echo "</table>";
-  
-  echo "<table border='1'>";
-  echo "<tr><td>ลำดับ</td><td>จังหวัด</td></tr>";
-  foreach($data as $key=>$val){
-    echo "<tr>";
-    echo "<td>";
-    echo ($key+1);
-    echo "</td>";
-    echo "<td>";
-    echo $val->province;
-    echo "</td>";
-    echo "</tr>";
-  }
-  echo "</table>"; 
+
 ?>
