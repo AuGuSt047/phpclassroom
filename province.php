@@ -2,9 +2,7 @@
 
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
-<p align="center">&nbsp;&nbsp; <span lang="th">ทดสอบ</span></p>
-
-  
+<p align="center"></p>
 echo "<table border='1'>";
 echo "<tr><td>ลำดับ</td><td>จังหวัด</td><td>จำนวนผู้ป่วยใหม่</td><td>จำนวนผู้ป่วยสะสม</td>
        <td>จำนวนผู้ป่วยใหม่(รวมต่างประเทศ)</td><td>จำนวนผู้ป่วยสะสม(รวมต่างประเทศ)</td>
