@@ -5,7 +5,7 @@
 echo "<h1><center><b>รายงานสถานการณ์โควิด-19 แยกจังหวัด</b></center></h1><br>";
 echo '<body style="background-color:mediumaquamarine">';
 echo "<center><table border='1'>";
-echo "<tr><td style= 'background-color:#FFCBA4'>ลำดับ</td>
+echo "<tr><td style= 'background-color:#87CEFA'>ลำดับ</td>
       <td style= 'background-color:#87CEFA'>จังหวัด</td>
       <td style= 'background-color:#87CEFA'>จำนวนผู้ป่วยใหม่</td>
       <td style= 'background-color:#87CEFA'>จำนวนผู้ป่วยสะสม</td>
