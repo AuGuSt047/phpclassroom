@@ -17,33 +17,39 @@ echo "<tr><td style= 'background-color:#87CEFA'>ลำดับ</td>
 
 foreach($data as $key=>$val){
   echo "<tr>";
-  echo "<td>";
+  echo "<td style= 'background-color:#FFCBA4'>";
   echo ($key+1);
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->province;
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->new_case;
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->total_case;
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->new_case_excludeabroad;
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->total_case_excludeabroad;
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->new_death;
   echo "</td>";
-  echo "<td>";
+  echo "<td style= 'background-color:#E8ADAA'>";
   echo $val->total_death;
   echo "</td>";
   echo "</tr>";
 }
 echo "</table></center>";
+
+echo "<center>วันที่อัพเดต</center><br>";
+echo $val->txn_date;
+
+?>
+
 
 
 ?>
