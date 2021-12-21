@@ -43,8 +43,8 @@ foreach($data as $key=>$val){
   echo "</td>";
   echo "</tr>";
 }
-echo "</table></center>";
-echo "<br><br>"
+echo "</table></center><br><br>";
+
 echo "<center>วันที่อัพเดต</center>";
 echo $val->txn_date;
 
