@@ -32,7 +32,7 @@ foreach($data as $key=>$val){
   echo "<td style= 'background-color:#F5F5DC'>";
   echo $val->new_case_excludeabroad;
   echo "</td>";
-  echo "<td style= 'background-color:#E8ADAA'>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo $val->total_case_excludeabroad;
   echo "</td>";
   echo "<td style= 'background-color:#F5F5DC'>";
@@ -50,6 +50,3 @@ echo $val->txn_date;
 
 ?>
 
-
-
-?>
