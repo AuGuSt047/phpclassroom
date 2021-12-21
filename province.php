@@ -46,7 +46,7 @@ foreach($data as $key=>$val){
 echo "</table></center><br>";
 
 echo "<center>วันที่อัพเดต</center>";
-echo $val->txn_date;
+echo "<center>$val->txn_date</center>";
 
 ?>
 
