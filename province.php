@@ -5,14 +5,14 @@
 echo "<h1><center><b>รายงานสถานการณ์โควิด-19 แยกจังหวัด</b></center></h1><br>";
 echo '<body style="background-color:mediumaquamarine">';
 echo "<center><table border='1'>";
-echo "<tr><td style= 'background-color:#E0FFFF'>ลำดับ</td>
-      <td style= 'background-color:#E0FFFF'>จังหวัด</td>
-      <td style= 'background-color:#E0FFFF'>จำนวนผู้ป่วยใหม่</td>
-      <td style= 'background-color:#E0FFFF'>จำนวนผู้ป่วยสะสม</td>
-      <td style= 'background-color:#E0FFFF'>จำนวนผู้ป่วยใหม่(รวมต่างประเทศ)</td>
-      <td style= 'background-color:#E0FFFF'>จำนวนผู้ป่วยสะสม(รวมต่างประเทศ)</td>
-      <td style= 'background-color:#E0FFFF'>จำนวนผู้เสียชีวิต</td>
-      <td style= 'background-color:#E0FFFF'>จำนวนผู้เสียชีวิตสะสม</td>
+echo "<tr><td style= 'background-color:#E0FFFF'><b>ลำดับ</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จังหวัด</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จำนวนผู้ป่วยใหม่</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จำนวนผู้ป่วยสะสม</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จำนวนผู้ป่วยใหม่(รวมต่างประเทศ)</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จำนวนผู้ป่วยสะสม(รวมต่างประเทศ)</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จำนวนผู้เสียชีวิต</b></td>
+      <td style= 'background-color:#E0FFFF'><b>จำนวนผู้เสียชีวิตสะสม</b></td>
       </tr>";
 
 foreach($data as $key=>$val){
