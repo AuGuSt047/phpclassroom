@@ -84,7 +84,7 @@
       <div class="col-3">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3 bg-success text-white">
-            <h4 class="my-0 fw-normal">หายป่วยกลับบ้าน</h4>
+            <h4 class="my-0 fw-normal">เสียชีวิตรวม</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><?php echo $data[0]->new_recovered; ?><small class="text-muted fw-light"> คน</small></h1>
@@ -130,7 +130,7 @@
             <th>ลำดับ</th>
             <th>จังหวัด</th>
             <th>ผู้ป่วยใหม่</th>
-            <th>หายป่วยกลับบ้าน</th>
+            <th>เสียชีวิตรวม</th>
             <th>ผู้ป่วยสะสม</th>
             <th>เสียชีวิต</th>
           </tr>
@@ -151,7 +151,7 @@ foreach($data as $key=>$val){
   echo $val->new_case;
   echo "</td>";
   echo "<td>";
-  echo $val->new_recovered;
+  echo $val->total_death;
   echo "</td>";
   echo "<td>";
   echo $val->total_case;
