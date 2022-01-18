@@ -114,7 +114,7 @@
     </div>
 
   </main>
- <?php
+ 
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <header>
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -179,4 +179,4 @@ Message #work
     
   </body>
 </html>
-?>
+
