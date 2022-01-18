@@ -143,7 +143,7 @@
   echo ($key+1);
   echo "</td>";
   echo "<td style=>";
-  echo $val->province;
+  echo $val\>province;
   echo "</td>";
   echo "<td style=>";
   echo $val->new_case;
@@ -158,8 +158,7 @@
   echo $val->new_death;
   echo "</td>";
   echo "</tr>";
-}
-        </table>
+}    </table>
       </div>
     </div>
 
