@@ -137,29 +137,11 @@
           </tr>
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
-          
-          
-foreach($data as $key=>$val){
- echo "<tr>";
-  echo "<td style=>";
+           
+echo "<tr>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo ($key+1);
   echo "</td>";
-  echo "<td style=>";
-  echo $val\>province;
-  echo "</td>";
-  echo "<td style=>";
-  echo $val->new_case;
-  echo "</td>";
-  echo "<td style=>";
-  echo $val->total_case;
-  echo "</td>";
-  echo "<td style=>";
-  echo $val->new_recovered;
-  echo "</td>";
-  echo "<td style=>";
-  echo $val->new_death;
-  echo "</td>";
- echo "</tr>";
 }    </table>
       </div>
     </div>
