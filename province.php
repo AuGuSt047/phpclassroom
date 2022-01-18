@@ -15,29 +15,7 @@ echo "<tr><td style= 'background-color:#E0FFFF'><b>ลำดับ</b></td>
       <td style= 'background-color:#E0FFFF'><b>จำนวนผู้เสียชีวิตสะสม</b></td>
       </tr>";
 
-foreach($data as $key=>$val){
-  echo "<tr>";
-  echo "<td>";
-  echo ($key+1);
-  echo "</td>";
-  echo "<td>";
-  echo $val->province;
-  echo "</td>";
-  echo "<td>";
-  echo $val->new_case;
-  echo "</td>";
-  echo "<td>";
-  echo $val->new_recovered;
-  echo "</td>";
-  echo "<td>";
-  echo $val->total_case;
-  echo "</td>";
-  echo "<td>";
-  echo $val->new_death;
-  echo "</td>";
- 
-  echo "</tr>";
-}
+
 echo "</table></center><br>";
 
 echo "<h3><b><center>วันที่อัปเดต</center></b></h3>";
