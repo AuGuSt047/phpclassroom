@@ -161,10 +161,10 @@ foreach($data as $key=>$val){
   echo "</td>";
  
   echo "</tr>";
-
+}
 ?>
 
-}    </table>
+    </table>
       </div>
     </div>
 
