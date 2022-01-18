@@ -139,8 +139,8 @@
           <!-- Loop -->
           
           
- foreach($data as $key=>$val){
-  echo "<tr>";
+foreach($data as $key=>$val){
+ echo "<tr>";
   echo "<td style=>";
   echo ($key+1);
   echo "</td>";
@@ -159,7 +159,7 @@
   echo "<td style=>";
   echo $val->new_death;
   echo "</td>";
-  echo "</tr>";
+ echo "</tr>";
 }    </table>
       </div>
     </div>
