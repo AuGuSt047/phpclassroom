@@ -140,26 +140,32 @@
            
 foreach($data as $key=>$val){
   echo "<tr>";
-  echo "<td style=>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo ($key+1);
   echo "</td>";
-  echo "<td style=>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo $val->province;
   echo "</td>";
-  echo "<td style=>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo $val->new_case;
   echo "</td>";
-  echo "<td style=>";
-  echo $val->new_recovered;
-  echo "</td>";
-  echo "<td style=>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo $val->total_case;
   echo "</td>";
-  echo "<td style=>";
+  echo "<td style= 'background-color:#F5F5DC'>";
+  echo $val->new_case_excludeabroad;
+  echo "</td>";
+  echo "<td style= 'background-color:#F5F5DC'>";
+  echo $val->total_case_excludeabroad;
+  echo "</td>";
+  echo "<td style= 'background-color:#F5F5DC'>";
   echo $val->new_death;
   echo "</td>";
-  echo"</tr>";
-    }
+  echo "<td style= 'background-color:#F5F5DC'>";
+  echo $val->total_death;
+  echo "</td>";
+  echo "</tr>";
+}
 
 Message #work
 }    </table>
