@@ -128,7 +128,7 @@
       <div class="col">
         <table class="table table-striped rounded-3">
           <tr>
-            <th>#</th>
+            <th>ลำดับ</th>
             <th>จังหวัด</th>
             <th>ผู้ป่วยใหม่</th>
             <th>หายป่วยกลับบ้าน</th>
