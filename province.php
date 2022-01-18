@@ -32,7 +32,7 @@ foreach($data as $key=>$val){
   echo "<td>";
   echo $val->total_case;
   echo "</td>";
-  echo "<td style= 'background-color:#F5F5DC'>";
+  echo "<td>";
   echo $val->new_death;
   echo "</td>";
  
