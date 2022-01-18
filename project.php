@@ -119,8 +119,7 @@
     <header>
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
        
-        $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
-        $data = json_decode($json);
+        
         <h1 class="display-7 fw-normal">รายงานข้อมูล Covid-19 แยกจังหวัด</h1>
       </div>
     </header>
@@ -164,7 +163,7 @@ foreach($data as $key=>$val){
   echo "</tr>";
 }
 ?>
-Message #work
+
 }    </table>
       </div>
     </div>
