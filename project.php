@@ -87,7 +87,7 @@
             <h4 class="my-0 fw-normal">เสียชีวิตรวม</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title"><?php echo $data[0]->new_recovered; ?><small class="text-muted fw-light"> คน</small></h1>
+            <h1 class="card-title pricing-card-title"><?php echo $data[0]->total_death; ?><small class="text-muted fw-light"> คน</small></h1>
           </div>
         </div>
       </div>
