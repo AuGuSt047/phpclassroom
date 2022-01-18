@@ -138,6 +138,7 @@
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
           
+          
  foreach($data as $key=>$val){
   echo "<tr>";
   echo "<td style=>";
